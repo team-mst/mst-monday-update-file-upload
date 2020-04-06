@@ -1,0 +1,22 @@
+name: 'MST monday.com file uploader'
+description: 'This action uploads a file to an update of a pulse on monday.com.'
+author: 'Zeljko Romanovic MST'
+inputs:
+  monday-api-key:
+    description: monday.com API Key (Admin > API > API v2 Token > Personal API Token [Copy]). This parameter should be stored in the GitHub secrets.
+    required: true
+  monday-update-id:
+    description: Monday.com's update ID for which will be attached a file.
+    required: true
+  monday-file-path:
+    description: Path of a file which needs to be uploaded.
+    required: true
+outputs:
+  monday-response:
+    description: 'Response from monday.com in case the file is successfully uploaded.'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: 'file-plus'
+  color: 'green'
