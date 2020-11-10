@@ -1,6 +1,6 @@
 {
   "name": "mst-monday-update-file-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This action uploads a file to an update of a pulse on monday.com.",
   "main": "index.js",
   "scripts": {
