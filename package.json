@@ -28,7 +28,7 @@
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@types/node": "^13.11.0",
-    "follow-redirects": "^1.11.0",
+    "follow-redirects": "^1.14.8",
     "request": "^2.88.2"
   }
 }
